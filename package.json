@@ -1,0 +1,29 @@
+{
+  "name": "simpleblog",
+  "version": "1.0.0",
+  "description": "Simple Blog for all",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alymbekov-Sabyr/SimpleBlog.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Sabyr <alymbekovsabyr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alymbekov-Sabyr/SimpleBlog/issues"
+  },
+  "homepage": "https://github.com/Alymbekov-Sabyr/SimpleBlog#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}
